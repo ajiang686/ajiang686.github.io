@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开关灯</title>
+    <script>
+        function kaideng1(){
+          var obj =  document.getElementById("灯1")
+          obj.src = "开.png"
+        }
+        function guandeng1(){
+            var obj =  document.getElementById("灯1")
+            obj.src = "关.png"
+        }
+       
+    </script>
+</head>
+<body>
+    <input type="button" value="开灯" onclick="kaideng1()">
+    <img src="关.png" alt="" id="灯1"> 
+    <input type="button" value="关灯" onclick="guandeng1()">
+    <br>
+</body>
+</html>

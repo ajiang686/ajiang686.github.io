@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算器</title>
+    <script>
+        function jisuan(){
+            one = document.getElementById("one")
+            two = document.getElementById("two")
+            three = document.getElementById("three")
+            num1 = Number(one.value)
+            num2 = Number(two.value)
+            num3 = Number(three.value)
+            a = (num1 + num2 + num3)/3
+            alert("均值是" + a)
+        }
+    </script>
+
+</head>
+<body>
+    <P>输入三个整数：</P>
+    <input type="text" id="one">
+    <br>
+    <input type="text" id="two">
+    <br>
+    <input type="text" id="three">
+    <br>
+    <input type="button" value="计算！" id="gk" onclick="jisuan()">
+</body>
+</html>
