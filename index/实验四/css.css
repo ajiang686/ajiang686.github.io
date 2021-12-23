@@ -1,0 +1,41 @@
+#screen {
+    width: 9999px;
+    height: 9999px;
+    animation: 10s dfdfd infinite;
+}
+
+#screen img {
+    float: left;
+    margin-left: -6px;
+}
+
+#tv {
+    width: 2000;
+    height: 454;
+    overflow: hidden;
+}
+
+@keyframes dfdfd {
+    /* 0%{} */
+    25% {
+        transform: translateX(0px)
+    }
+    25.1015% {
+        transform: translateX(-730px)
+    }
+    50% {
+        transform: translateX(-730px)
+    }
+    50.1015% {
+        transform: translateX(-1460px)
+    }
+    75% {
+        transform: translateX(-1460px)
+    }
+    75.1015% {
+        transform: translateX(-2190px)
+    }
+    /* 100% {
+        transform: translateX(-2190px)
+    } */
+}
